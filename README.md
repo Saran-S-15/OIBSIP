@@ -1,4 +1,4 @@
-# 🍕 Pizza Customization & Delivery App
+# 🍕 Pizza Delivery App
 
 This is a full-stack **Pizza Customization & Delivery Web Application** built during my internship at **Oasis Infobyte** under the **Web Development and Designing** domain. The application allows users to build their own pizzas, place orders, and track them, while also enabling admins to manage inventory, receive stock alerts, and view order histories.
 
