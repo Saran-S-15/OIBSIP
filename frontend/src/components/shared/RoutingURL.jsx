@@ -1,0 +1,1 @@
+export const stocksURL = "/admin/inventory/stocks"
