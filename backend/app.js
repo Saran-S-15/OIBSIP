@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import cookieParser from "cookie-parser";
-import connectDB from "./db/connectDB.js";
+import connectDB from "./db/connectDB.js"
 
 dotenv.config();
 
@@ -33,10 +33,10 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/order", orderRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Pizza Backend is running 🍕");
+    res.send("Pizza Backend is running 🍕");
 });
 
 
-connectDB();
+await connectDB();
 export default app;
 
