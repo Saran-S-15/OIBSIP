@@ -32,6 +32,9 @@ app.use("/api/pizza", pizzaRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/order", orderRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Pizza Backend is running 🍕");
+});
 
 app.listen(PORT, () => {
     connectDB();
