@@ -39,4 +39,4 @@ app.use((req, res) => {
 app.listen(PORT, () => {
     connectDB();
     console.log(`Server is running on PORT: ${PORT}`);
-})
+});

@@ -105,7 +105,7 @@ const CheckOutPage = () => {
 
                             ))
                         ) : (
-                            <div className="text-gray-400">Cart is Empty.</div>
+                            <div className="text-gray-400"></div>
                         )}
                     </div>
 
@@ -208,9 +208,11 @@ const CheckOutPage = () => {
                                 Total Pizzas: <span className="font-semibold">{customPizzas.length + cartPizzas.reduce((acc, c) => acc + c.items.length, 0)}</span>
                             </p>
                             <p className="text-xl font-bold text-green-500">Total: ₹{totalAmount}</p>
-                        </div>
 
+                            <p className="text-lg text-center font-bold text-primary">⚠️Razorpay Checkout Disabled⚠️</p>
+                        </div>
                         <button
+                            disabled
                             className="btn btn-primary btn-block mt-6 hover:scale-105 transition-transform"
                             onClick={() => {
                                 const combinedPizzas = [

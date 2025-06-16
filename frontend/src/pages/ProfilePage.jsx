@@ -39,7 +39,7 @@ const ProfilePage = () => {
                     </div>
                 </div>
 
-                <button className="btn btn-primary btn-block mt-8">Edit Profile</button>
+                <button className="btn btn-primary btn-block mt-8">Hello, {authUser.name}</button>
             </div>
         </div>
     );
