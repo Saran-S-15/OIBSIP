@@ -67,7 +67,7 @@ export const EMAIL_VERIFICATION_TEMPLATE = `<!DOCTYPE html>
 <body>
   <div class="wrapper">
     <div class="header">
-      <h1>🍕 PizzaPass</h1>
+      <h1>🍕 Pizzario</h1>
       <div class="emoji-banner">🧀🍅🍄🥓🌶️</div>
     </div>
     <div class="content">
@@ -77,7 +77,7 @@ export const EMAIL_VERIFICATION_TEMPLATE = `<!DOCTYPE html>
       <p style="margin-top: 30px; color: #999;">Didn't request this? Just ignore this cheesy message.</p>
     </div>
     <div class="footer">
-      &copy; 2025 PizzaPass. All Rights Reserved. Made with ❤️ and mozzarella.
+      &copy; 2025 Pizzario. All Rights Reserved. Made with ❤️ and mozzarella.
     </div>
   </div>
 </body>
@@ -156,19 +156,19 @@ export const WELCOME_TEMPLATE = `<!DOCTYPE html>
 <body>
   <div class="wrapper">
     <div class="header">
-      <h1>🍕 Welcome to PizzaPass!</h1>
+      <h1>🍕 Welcome to Pizzario!</h1>
       <div class="emoji-banner">🎉🧀🍕🚴‍♂️🔥</div>
     </div>
     <div class="content">
       <h2>Your Taste Adventure Begins!</h2>
-      <p>We're thrilled to have you join the PizzaPass family. From sizzling slices to blazing-fast deliveries, we're here to satisfy your cravings.</p>
+      <p>We're thrilled to have you join the Pizzario family. From sizzling slices to blazing-fast deliveries, we're here to satisfy your cravings.</p>
 
       <div class="decorated-name">🍕✨ <span class="highlight-name">{name}</span> ✨🍕</div>
 
       <p style="margin-top: 30px; color: #999;">Questions? Our team is just a slice away 🍕</p>
     </div>
     <div class="footer">
-      &copy; 2025 PizzaPass. All Rights Reserved. Made with ❤️ and mozzarella.
+      &copy; 2025 Pizzario. All Rights Reserved. Made with ❤️ and mozzarella.
     </div>
   </div>
 </body>
@@ -179,7 +179,7 @@ export const FORGOT_PASSWORD_TEMPLATE = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reset Your Password - PizzaPass</title>
+  <title>Reset Your Password - Pizzario</title>
   <style>
     body {
       background: #000000;
@@ -258,7 +258,7 @@ export const FORGOT_PASSWORD_TEMPLATE = `<!DOCTYPE html>
       <p style="margin-top: 30px; color: #999;">Didn’t request a password reset? Just ignore this message 🍕</p>
     </div>
     <div class="footer">
-      &copy; 2025 PizzaPass. All Rights Reserved. Made with ❤️ and mozzarella.
+      &copy; 2025 Pizzario. All Rights Reserved. Made with ❤️ and mozzarella.
     </div>
   </div>
 </body>
@@ -269,7 +269,7 @@ export const RESET_PASSWORD_TEMPLATE = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Password Reset Successful - PizzaPass</title>
+  <title>Password Reset Successful - Pizzario</title>
   <style>
     body {
       background: #1c1c1c;
@@ -333,7 +333,7 @@ export const RESET_PASSWORD_TEMPLATE = `<!DOCTYPE html>
       <p>Craving something tasty? Open the app and start your next order. 🍕🔥</p>
     </div>
     <div class="footer">
-      &copy; 2025 PizzaPass. All Rights Reserved. Made with ❤️ and mozzarella.
+      &copy; 2025 Pizzario. All Rights Reserved. Made with ❤️ and mozzarella.
     </div>
   </div>
 </body>
@@ -344,7 +344,7 @@ export const STOCK_TEMPLATE = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PizzaPass Stock Alert</title>
+  <title>Pizzario Stock Alert</title>
   <style>
     body {
       background: #000000;
@@ -417,7 +417,7 @@ export const STOCK_TEMPLATE = `<!DOCTYPE html>
       <p style="margin-top: 30px; color: #999;">Please restock to avoid disappointing pizza lovers! 🍕</p>
     </div>
     <div class="footer">
-      &copy; 2025 PizzaPass. All Rights Reserved. Stay saucy 🍅.
+      &copy; 2025 Pizzario. All Rights Reserved. Stay saucy 🍅.
     </div>
   </div>
 </body>

@@ -32,9 +32,6 @@ app.use("/api/pizza", pizzaRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/order", orderRoutes);
 
-app.use((req, res) => {
-    res.status(404).json({ message: "Route Not Found" });
-});
 
 app.listen(PORT, () => {
     connectDB();
