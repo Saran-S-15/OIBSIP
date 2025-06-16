@@ -36,8 +36,7 @@ app.get("/", (req, res) => {
   res.send("Pizza Backend is running 🍕");
 });
 
-app.listen(PORT, () => {
-    connectDB();
-    console.log(`Server is running on PORT: ${PORT}`);
-});
+
+connectDB();
+export default app;
 
