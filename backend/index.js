@@ -37,6 +37,8 @@ app.get("/", (req, res) => {
 });
 
 
-await connectDB();
-export default app;
+app.listen(PORT, () => {
+    connectDB();
+    console.log(`Server is Running on PORT : ${PORT}`);
+})
 

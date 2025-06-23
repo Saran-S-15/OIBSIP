@@ -83,7 +83,7 @@ const SignupPage = () => {
               <span className='label-text'>Email Address</span>
             </label>
             <Input
-              type="text"
+              type="email"
               placeholder="Enter your Email"
               className="input input-lg w-full pl-10"
               id='email'
