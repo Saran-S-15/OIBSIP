@@ -29,6 +29,7 @@ import AllStocksPage from './pages/admin/AllStocksPage';
 import SuccessPage from './pages/SuccessPage';
 import OrdersPage from './pages/admin/OrdersPage';
 import MyOrdersPage from './pages/MyOrdersPage';
+import NotFound from './components/comp/NotFound';
 
 const App = () => {
   const { themebg } = useThemeStore();
@@ -72,8 +73,9 @@ const App = () => {
           <Route path='/createCustomPizza' element={authUser && authUser.isVerified && authUser.role === "user" ? <CreateCustomPizza /> : <HomePage />} />
           <Route path='/checkout' element={authUser && authUser.isVerified && authUser.role === "user" ? <CheckOutPage /> : <HomePage />} />
           <Route path='/success' element={<SuccessPage />} />
-          <Route path='/admin/inventory/orders' element={authUser && authUser.role === "admin" ? <OrdersPage/> : <AdminLoginPage />} />
-          <Route path='/myOrders' element={authUser && authUser.isVerified && authUser.role === "user" ? <MyOrdersPage/> : <HomePage />} />
+          <Route path='/admin/inventory/orders' element={authUser && authUser.role === "admin" ? <OrdersPage /> : <AdminLoginPage />} />
+          <Route path='/myOrders' element={authUser && authUser.isVerified && authUser.role === "user" ? <MyOrdersPage /> : <HomePage />} />
+          <Route path='/*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       <Toaster />
